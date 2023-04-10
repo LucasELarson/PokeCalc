@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PokeCalc/static/css/main.d591b131.css",
+    "main.js": "/PokeCalc/static/js/main.ea8e36f8.js",
+    "static/media/VarelaRound-Regular.ttf": "/PokeCalc/static/media/VarelaRound-Regular.6b0ad79431843e696f58.ttf",
+    "index.html": "/PokeCalc/index.html",
+    "main.d591b131.css.map": "/PokeCalc/static/css/main.d591b131.css.map",
+    "main.ea8e36f8.js.map": "/PokeCalc/static/js/main.ea8e36f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d591b131.css",
+    "static/js/main.ea8e36f8.js"
+  ]
+}
