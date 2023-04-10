@@ -1,0 +1,214 @@
+body{
+   margin: 0px;
+}
+
+@font-face {
+   font-family: Varela;
+   src: url(./fonts/VarelaRound-Regular.ttf);
+}
+
+#root{
+   height: 100vh;
+   width: 100%;
+}
+
+#App{
+   display: grid;
+   background-color: green;
+   height: 100%;
+   width: 100%;
+   grid-template-rows: 1fr 10fr 1fr
+}
+
+#header{
+   background-color: #553c9a;
+   width: 100%;
+   display: grid;
+   justify-items: center;
+   align-items: center;
+   grid-template-columns: 1fr 10fr 1fr;
+   border-bottom: 5px solid #3f2c73;
+   font-family: 'Varela';
+}
+
+   #menu{
+      font-size: 2rem;
+   }
+
+   #title{
+      font-size: 1.5rem;
+   }
+
+   #user{
+      font-size: 2rem;
+   }
+
+   #loggedin{
+      display: none;
+      height: 50%;
+      align-items: center;
+      font-size: medium;
+      margin-right: 10px;
+   }
+   #loggeding, img{
+      height: 5vh;
+      border-radius: 25px;
+   }
+
+#body{
+   display: grid;
+   background-image: linear-gradient(to bottom, #553c9a, #b393d3);
+   justify-items: center;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+   grid-template-rows: 5fr 1fr 6fr;
+   grid-template-columns: 1fr 1fr;
+   font-family: 'Varela';
+}
+
+   .datadisplay{
+      display: flex;
+      gap: 10px;
+   }
+
+   #pokemonPick{
+      display: grid;
+      width: 100vw;
+      justify-items: center;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 50vw));
+      grid-auto-rows: min-content;
+      justify-content: center;
+      align-items: center;
+      align-content: space-evenly;
+      grid-column: 1/4;
+   }
+
+   .icon{
+      height: 10vh;
+   }
+
+   .pokemonPick{
+      height: 3vh;
+      box-shadow: 0px 5px 5px 0px;
+      border-radius: 5px;
+      background-color: #b393d3;
+      font-family: 'Varela';
+      font-weight: 600;
+   }
+
+   .pokemonPick:hover{
+         background-color: #553c9a;
+         cursor: pointer;
+   }
+
+   #getData{
+      min-width: 3vw;
+      min-height: 3vh;
+      max-width: fit-content;
+      max-height: fit-content;
+      grid-column: 1/4;
+      box-shadow: 0px 5px 5px 0px;
+      border-radius: 7px;
+      background-color: #b393d3;
+      font-family: 'Varela';
+      font-weight: 600;
+   }
+
+   #getData:hover{
+      background-color: #553c9a;
+      cursor: pointer;
+   }
+
+   
+
+   .typedisplay{
+      display: none;
+   }
+
+   .visiblegrid{
+      display: grid;
+      min-width: fit-content;
+      max-width: 8vw;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 0px 5px 5px 0px;
+   }
+
+   #weaknesses{
+      display: grid;
+      height: 80%;
+      font-size: larger;     
+      gap: 40px;
+      grid-template-columns: repeat(auto-fill, 15%);
+      align-content: center;  
+      font-weight: 600;   
+      width: 90%;
+      justify-content: space-between;
+   }
+
+   #choiceContainer{
+      display: flex;
+      align-items: center;
+
+   }
+
+
+   #weaknessAnalysis{
+      display: grid;
+      background-color: azure;
+      padding: 10px;
+      width: 30vw;
+      height: 80%;
+      border-radius: 25px;
+      align-self: center;
+      border: #3f2c73 5px solid;
+      box-shadow: 0px 7px 7px 0px;
+      background-color: #b393d3;
+   }
+
+   #infotextbox{
+      display: flex;
+      font-size: medium;
+   }
+
+#footer{
+   height: 10vh;
+   background-color: #b393d3;
+   border-top: 5px solid #a276ce;  
+   font-family: 'Varela';
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3vw;
+}
+
+.saveteam{
+   display: flex;
+   min-width: 5vw;
+   min-height: 3vw;
+   max-width: fit-content;
+   max-height: fit-content;
+   box-shadow: 0px 5px 5px 0px;
+   border-radius: 7px;
+   background-color: #b393d3;
+   font-family: 'Varela';
+   font-weight: 600;
+   justify-content: center;
+   align-items: center;
+   transition-property: backround-color;
+   
+}
+
+.saveteam:hover {
+   background-color: #553c9a;
+   cursor: pointer;
+}
+
+.teamEdit{
+   display: flex;
+   gap: 5px;
+}
