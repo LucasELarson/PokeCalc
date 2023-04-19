@@ -11,3 +11,5 @@ If you do not wish to sign in pokemon team data is stored locally aswell to ensu
 Basic functionality it picking 6 pokemon, and clicking "get data". In order to save a team locally hit "Save 1" or similar. If you wish to save that to a db then log in and hit save then sync. 
 
 Formatting was done by styling for both mobile and desktop with the same code. I have plans to later iplement a mobile site which would have more accebible proportion and visibility.
+
+See deployment here: https://lucaselarson.github.io/PokeCalc/
